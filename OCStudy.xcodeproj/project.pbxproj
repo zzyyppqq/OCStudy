@@ -33,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		209AC06546CDF3C23844EC90 /* create_story_branch.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = create_story_branch.sh; sourceTree = "<group>"; };
 		209AC1849C5C579FE9308474 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
 		209AC1B67F2D5E64353BD7BD /* OCStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		209AC2057AF4C2CCCDB2D854 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 				209AC8D7C71B5736509F71C4 /* Products */,
 				209AC7A3C37C4D0324EC30FC /* OCStudy */,
 				209ACD292C94046FBD587C06 /* .gitignore */,
+				209AC06546CDF3C23844EC90 /* create_story_branch.sh */,
 			);
 			sourceTree = "<group>";
 		};
