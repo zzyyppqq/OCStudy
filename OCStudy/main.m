@@ -9,7 +9,6 @@
 /**
  * clang -fobjc-arc main.m -o prog1
  * ./prog1
- *
  */
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
