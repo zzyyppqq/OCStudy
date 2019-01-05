@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209AC0393FA3430EFD8F0301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AC52ED36789E15A35F3E8 /* main.m */; };
+		209AC13838C25FAB58431052 /* Fraction+MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 209ACEB1B0D5A5598AA5EA97 /* Fraction+MathOps.m */; };
+		209AC1C5F4AE9798CE34F44B /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AC2057AF4C2CCCDB2D854 /* XYPoint.m */; };
+		209AC2E57C8603190FEAABFC /* metric.h in Sources */ = {isa = PBXBuildFile; fileRef = 209ACE7685E721CA02C4AC2E /* metric.h */; };
+		209AC3392CB99D2D5EFAF9E2 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 209ACC9939C106814E9A4765 /* Square.m */; };
+		209AC3416BB62BC6A6390093 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 209ACA060CBFDD7B01D8FC79 /* AddressBook.m */; };
+		209AC4F037A793D8B330C274 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AC8FE981E1595AFA51F93 /* Rectangle.m */; };
+		209AC720AEE6323CF2ED6ED1 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AC318050F6FB617BFF987 /* Fraction.m */; };
+		209ACB3A993516998D6947B1 /* GraphicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 209ACCAE619E6643F37D4721 /* GraphicObject.m */; };
+		209ACC4132C6ECC36E1DE42D /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AC1849C5C579FE9308474 /* ClassA.m */; };
+		209ACF0B7D937640690B1AFF /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AC911DE4620804DE589B8 /* ClassB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		209AC910130F5D407861E0F7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		209AC1849C5C579FE9308474 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		209AC1B67F2D5E64353BD7BD /* OCStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCStudy; sourceTree = BUILT_PRODUCTS_DIR; };
+		209AC2057AF4C2CCCDB2D854 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		209AC26C40761E56C34B17FF /* GraphicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicObject.h; sourceTree = "<group>"; };
+		209AC318050F6FB617BFF987 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		209AC34E2C09C67E5422ACC6 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		209AC3FD42A1548F6A92E09B /* Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawing.h; sourceTree = "<group>"; };
+		209AC43F5393E9042595624A /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		209AC455F92E21DC895A01EB /* NSObjectSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectSub.h; sourceTree = "<group>"; };
+		209AC52ED36789E15A35F3E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		209AC538734937C0F57561F7 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		209AC5483E8CC8686F6427BD /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		209AC8C4D7BB27A79FE98DBE /* Drawing3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawing3D.h; sourceTree = "<group>"; };
+		209AC8FE981E1595AFA51F93 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		209AC911DE4620804DE589B8 /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		209AC9432EFC88FCA7315300 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		209ACA060CBFDD7B01D8FC79 /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		209ACB24C6DF0649E2F86189 /* Fraction+MathOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fraction+MathOps.h"; sourceTree = "<group>"; };
+		209ACB89C1C8DA7C8D79630C /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		209ACC9939C106814E9A4765 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		209ACCAE619E6643F37D4721 /* GraphicObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicObject.m; sourceTree = "<group>"; };
+		209ACD292C94046FBD587C06 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		209ACE7685E721CA02C4AC2E /* metric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metric.h; sourceTree = "<group>"; };
+		209ACEB1B0D5A5598AA5EA97 /* Fraction+MathOps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fraction+MathOps.m"; sourceTree = "<group>"; };
+		209ACEFF2B8123F7F1B612A2 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209AC3EEDAFC8C84E4D53E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209AC09AEE9226A8C2895EF8 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				209AC3FD42A1548F6A92E09B /* Drawing.h */,
+				209AC26C40761E56C34B17FF /* GraphicObject.h */,
+				209ACCAE619E6643F37D4721 /* GraphicObject.m */,
+				209AC8C4D7BB27A79FE98DBE /* Drawing3D.h */,
+				209AC455F92E21DC895A01EB /* NSObjectSub.h */,
+				209ACA060CBFDD7B01D8FC79 /* AddressBook.m */,
+				209ACB89C1C8DA7C8D79630C /* AddressBook.h */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		209AC272F252BB950976767C /* define */ = {
+			isa = PBXGroup;
+			children = (
+				209ACE7685E721CA02C4AC2E /* metric.h */,
+			);
+			path = define;
+			sourceTree = "<group>";
+		};
+		209AC409340A6ADA99E82582 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				209ACEB1B0D5A5598AA5EA97 /* Fraction+MathOps.m */,
+				209ACB24C6DF0649E2F86189 /* Fraction+MathOps.h */,
+				209AC43F5393E9042595624A /* Fraction.h */,
+				209AC318050F6FB617BFF987 /* Fraction.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		209AC4FB7E4F7017C9B1F01E = {
+			isa = PBXGroup;
+			children = (
+				209AC8D7C71B5736509F71C4 /* Products */,
+				209AC7A3C37C4D0324EC30FC /* OCStudy */,
+				209ACD292C94046FBD587C06 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		209AC7A3C37C4D0324EC30FC /* OCStudy */ = {
+			isa = PBXGroup;
+			children = (
+				209AC52ED36789E15A35F3E8 /* main.m */,
+				209AC09AEE9226A8C2895EF8 /* protocol */,
+				209AC409340A6ADA99E82582 /* category */,
+				209ACF8B807B77840261AE32 /* composite */,
+				209AC272F252BB950976767C /* define */,
+				209ACC5A4C59AB2EC91D34A5 /* extend */,
+				209ACEB389E6A58D57249D6B /* ifdef */,
+			);
+			path = OCStudy;
+			sourceTree = "<group>";
+		};
+		209AC8D7C71B5736509F71C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209AC1B67F2D5E64353BD7BD /* OCStudy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209ACC5A4C59AB2EC91D34A5 /* extend */ = {
+			isa = PBXGroup;
+			children = (
+				209AC911DE4620804DE589B8 /* ClassB.m */,
+				209ACEFF2B8123F7F1B612A2 /* ClassB.h */,
+				209AC9432EFC88FCA7315300 /* ClassA.h */,
+				209AC1849C5C579FE9308474 /* ClassA.m */,
+				209AC538734937C0F57561F7 /* XYPoint.h */,
+				209AC2057AF4C2CCCDB2D854 /* XYPoint.m */,
+			);
+			path = extend;
+			sourceTree = "<group>";
+		};
+		209ACEB389E6A58D57249D6B /* ifdef */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ifdef;
+			sourceTree = "<group>";
+		};
+		209ACF8B807B77840261AE32 /* composite */ = {
+			isa = PBXGroup;
+			children = (
+				209ACC9939C106814E9A4765 /* Square.m */,
+				209AC5483E8CC8686F6427BD /* Square.h */,
+				209AC8FE981E1595AFA51F93 /* Rectangle.m */,
+				209AC34E2C09C67E5422ACC6 /* Rectangle.h */,
+			);
+			path = composite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209ACAB7755CBF41AA54B46D /* OCStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209AC359F1B02A52ACF3C082 /* Build configuration list for PBXNativeTarget "OCStudy" */;
+			buildPhases = (
+				209ACEBF7F43BF223A5A45AE /* Sources */,
+				209AC3EEDAFC8C84E4D53E01 /* Frameworks */,
+				209AC910130F5D407861E0F7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCStudy;
+			productName = OCStudy;
+			productReference = 209AC1B67F2D5E64353BD7BD /* OCStudy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209ACEF19A5ED97182D2C24A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 209ACD4B4145095902873EA7 /* Build configuration list for PBXProject "OCStudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 209AC4FB7E4F7017C9B1F01E;
+			productRefGroup = 209AC8D7C71B5736509F71C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209ACAB7755CBF41AA54B46D /* OCStudy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209ACEBF7F43BF223A5A45AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209AC0393FA3430EFD8F0301 /* main.m in Sources */,
+				209ACB3A993516998D6947B1 /* GraphicObject.m in Sources */,
+				209AC13838C25FAB58431052 /* Fraction+MathOps.m in Sources */,
+				209AC720AEE6323CF2ED6ED1 /* Fraction.m in Sources */,
+				209AC3392CB99D2D5EFAF9E2 /* Square.m in Sources */,
+				209AC4F037A793D8B330C274 /* Rectangle.m in Sources */,
+				209AC2E57C8603190FEAABFC /* metric.h in Sources */,
+				209ACF0B7D937640690B1AFF /* ClassB.m in Sources */,
+				209ACC4132C6ECC36E1DE42D /* ClassA.m in Sources */,
+				209AC3416BB62BC6A6390093 /* AddressBook.m in Sources */,
+				209AC1C5F4AE9798CE34F44B /* XYPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		209AC3AAD2ED7C8E2683B5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		209AC89A4B2C36947715E822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		209ACE3AEEBB2F44226841A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		209ACEAFFF16AF8BBB85E7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209AC359F1B02A52ACF3C082 /* Build configuration list for PBXNativeTarget "OCStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209AC3AAD2ED7C8E2683B5F3 /* Debug */,
+				209ACEAFFF16AF8BBB85E7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		209ACD4B4145095902873EA7 /* Build configuration list for PBXProject "OCStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209ACE3AEEBB2F44226841A4 /* Debug */,
+				209AC89A4B2C36947715E822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209ACEF19A5ED97182D2C24A /* Project object */;
+}
