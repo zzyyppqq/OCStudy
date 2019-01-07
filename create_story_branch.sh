@@ -9,7 +9,7 @@ else
         git checkout -b $line $1
         git push -u origin $line
         echo 创建分支完成：$line
-    done < branch.txt
+    done < $2
     echo 批量创建分支完成
     git branch -a > temp.txt
     echo 显示所有本地分支、远程分支
