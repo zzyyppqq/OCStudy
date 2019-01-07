@@ -10,8 +10,9 @@ else
         git push -u origin $line
         echo 创建分支完成：$line
     done < branch.txt
+    echo 批量创建分支完成
+    git branch -a > temp.txt
+    echo 显示所有本地分支、远程分支
+    cat temp.txt
+    rm temp.txt
 fi
-
-
-
-git
