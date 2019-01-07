@@ -56,7 +56,6 @@
 		209ACC9939C106814E9A4765 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 		209ACCAE619E6643F37D4721 /* GraphicObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicObject.m; sourceTree = "<group>"; };
 		209ACD292C94046FBD587C06 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
-		209ACE72266D87FC6A1D8F88 /* branch.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = branch.txt; sourceTree = "<group>"; };
 		209ACE7685E721CA02C4AC2E /* metric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metric.h; sourceTree = "<group>"; };
 		209ACEB1B0D5A5598AA5EA97 /* Fraction+MathOps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fraction+MathOps.m"; sourceTree = "<group>"; };
 		209ACEFF2B8123F7F1B612A2 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
@@ -114,7 +113,6 @@
 				209AC7A3C37C4D0324EC30FC /* OCStudy */,
 				209ACD292C94046FBD587C06 /* .gitignore */,
 				209AC06546CDF3C23844EC90 /* create_story_branch.sh */,
-				209ACE72266D87FC6A1D8F88 /* branch.txt */,
 				209ACF06CB13CB3803B17F24 /* delete_story_branch.sh */,
 			);
 			sourceTree = "<group>";
